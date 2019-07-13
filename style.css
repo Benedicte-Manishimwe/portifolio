@@ -15,8 +15,8 @@ body{
   background-size:cover;
   width:100%;
   border:1px solid black; 
-  margin:20px;
   height:30%;
+  
 }
 
  .header h2{
@@ -36,21 +36,27 @@ body{
 
 .nav{
   float:left;
-  width:10%;
+  width:100%;
   overflow: hidden;
+  position:sticky;
+
+  
+
 }
 
 nav a{
-  display:block;
-  color:violet;
+  float:left;
+  color:red;
   font-size:18px;
   text-decoration: none;
-  margin:5px;
+  margin:0px;
+  padding:14px 16px ;
   text-align: center
+
 }
 nav a:hover{
   background-color: white;
-  color: blue;
+  color: blueviolet;
 }
 
 h3{
@@ -60,15 +66,13 @@ section{
   float:left;
   flex-direction:column;
   padding:0px;
-  margin-top:10px;
-  background-color:rgba(100,50,120,0.8);
-  
+  margin:10px auto 50px auto;
+
 }
 #about{
   float: left;
   width:30%;
-  height:800px;
-  border-right: 1px;
+  height:655px;
   margin-right: 20px;
   background-color:silver;
 }
@@ -76,12 +80,16 @@ section{
   text-align: center;
   padding:0px;
   border:1px solid white;
+  background-color:rgba(100,50,120,0.8)
 }
 #skills>ul>li{
   list-style-type:none;
 }
 #projects{
-  display:inline;
+  margin-top:10px;
+  background-image:url("https://thumbs.dreamstime.com/z/pens-books-5982043.jpg");
+  background-size: cover;
+
 }
 #projects>h3{
   text-align: center;
@@ -96,14 +104,10 @@ section{
 }
 
 #contacts{
-  width:100%;
-  margin-top: 20px;
-  display:flex;
-  margin:20px 10px 10px 10px;
-  border:1px solid neutral;
-  background-color: powderblue;
-  
-}
-#contacts p{
-  font-style:italic;
+  background-color:papayawhip;
+  color:blue;
+  border:1px dashed white;
+  margin:10px;
+  text-align:center;
+  margin:10px auto 10px auto;
 }
