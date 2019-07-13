@@ -10,14 +10,7 @@ body{
   margin:10px 80px 10px 80px;
 }
 
-body{
-  display:flex;
-  font-size:20px;
-
- }
-
 .header{
-  float:left;
   background-image:url("http://cdn.mobsocmedia.com/uploads/sites/82/shutterstock_130705718_1445036339.jpg");
   background-size:cover;
   width:100%;
@@ -45,9 +38,6 @@ body{
   float:left;
   width:100%;
   overflow: hidden;
-  position:sticky;
-
-  
 
 }
 
@@ -63,24 +53,6 @@ nav a{
 }
 nav a:hover{
   background-color: white;
-  color: blueviolet;
-
-}
-
-nav{
-  overflow: hidden;
-}
-
-nav a{
-  display:block;
-  color:violet;
-  font-size:18px;
-  text-decoration: none;
-  margin:5px;
-  text-align: center
-}
-nav a:hover{
-  background-color: white;
   color: blue;
 
 }
@@ -91,7 +63,6 @@ h3{
 section{
   float:left;
   flex-direction:column;
-
   padding:10px;
   margin:10px auto 50px auto;
 
@@ -121,6 +92,7 @@ section{
   margin-top:10px;
   background-image:url("https://thumbs.dreamstime.com/z/pens-books-5982043.jpg");
   background-size: cover;
+  color:blue;
 
 }
 #projects>h3{
