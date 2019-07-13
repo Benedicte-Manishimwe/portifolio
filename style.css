@@ -1,8 +1,8 @@
-*{
-  background-image: url(https://i.pinimg.com/236x/9b/41/0b/9b410bae43b081a974226b877afd04d3--the-sky-imagination.jpg);
-  background-size:cover;
+body{
+  background-image:url(blob:https://web.whatsapp.com/c7b8e86c-82e5-47f5-ae16-aa8a520a9232) ;
+  background-attachment:fixed;
+  background-size: cover; 
   border:1px solid black;
-  padding:5px;
-  margin:1opx;
+  padding:15px;
   font-family: sans-serif;
 }
