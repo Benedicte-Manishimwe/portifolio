@@ -1,17 +1,13 @@
 
 
 body{
-  font-size:20px;
-  margin:10px 80px 10px 80px;
-}
-
-*{
   box-sizing: border-box;
   background-image:url("/home/wecode/Downloads/WhatsApp Image 2019-07-13 at 11.03.43.jpeg");
-
+  background-attachment: fixed;
   background-size:cover;
   background-position: center;
-  margin:10px 30px 10px 30px;
+  font-size:20px;
+  margin:10px 80px 10px 80px;
 }
 
 body{
