@@ -49,19 +49,17 @@ nav a:hover{
   background-color: white;
   color: blue;
 }
-#about{
-  background-color: cyan;
-  width:100%;
-  text-justify:justify;
-  float: left;
-}
+
 h3{
   text-align: center;
 }
 section{
   float:left;
   flex-direction:column;
-  background-color: antiquewhite;
   padding:5px;
   margin:10px
+}
+
+#contacts{
+  
 }
