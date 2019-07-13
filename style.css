@@ -59,7 +59,7 @@ h3{
 section{
   float:left;
   flex-direction:column;
-  padding:10px;
+  padding:0px;
   margin-top:10px;
   background-color:rgba(100,50,120,0.8);
   
@@ -74,20 +74,35 @@ section{
 }
 #skills{
   text-align: center;
-  padding:10px;
+  padding:0px;
+  border:1px solid white;
 }
 #skills>ul>li{
   list-style-type:none;
 }
+#projects{
+  display:inline;
+}
+#projects>h3{
+  text-align: center;
+}
 
+.work{
+  column-count: 2;
+  column-width: 49%;
+}
+.eee{
+  float: left;
+}
 
 #contacts{
   width:100%;
   margin-top: 20px;
   display:flex;
-  margin:10px;
+  margin:20px 10px 10px 10px;
   border:1px solid neutral;
   background-color: powderblue;
+  
 }
 #contacts p{
   font-style:italic;
