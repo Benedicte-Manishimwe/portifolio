@@ -1,23 +1,22 @@
-*{
-  box-sizing: border-box;
+
+body{
+  font-size:20px;
+  margin:10px 80px 10px 80px;
   background-image:url("/home/wecode/Downloads/WhatsApp Image 2019-07-13 at 11.03.43.jpeg") ;
   background-attachment:fixed;
   background-size:cover;
   background-position: center;
-}
-
-body{
-  display:flex;
-  font-size:20px;
+  margin:10px 30px 10px 30px;
  }
 
 .header{
   float:left;
-  background-color:silver;
-  width:50%;
-  border:1px solid; 
+  background-image:url("http://cdn.mobsocmedia.com/uploads/sites/82/shutterstock_130705718_1445036339.jpg");
+  background-size:cover;
+  width:100%;
+  border:1px solid black; 
   margin:20px;
-  height:700px;
+  height:30%;
 }
 
  .header h2{
@@ -31,9 +30,13 @@ body{
 
 .header p{
   font-size:30px; 
+  text-align: center;
+  font-weight: bold;
 }
 
-nav{
+.nav{
+  float:left;
+  width:10%;
   overflow: hidden;
 }
 
@@ -57,9 +60,24 @@ section{
   float:left;
   flex-direction:column;
   padding:5px;
-  margin:10px
+  margin-top:10px;
+}
+#about{
+  float: left;
+  width:30%;
+  height:700px;
+  border-right: 1px;
+  background-color:silver;
 }
 
 #contacts{
-  
+  width:100%;
+  margin-top: 20px;
+  display:flex;
+  margin:10px;
+  border:1px solid neutral;
+  background-color: powderblue;
+}
+#contacts p{
+  font-style:italic;
 }
