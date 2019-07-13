@@ -4,7 +4,7 @@ body{
   background-size:cover;
   background-position: center;
   display:flex;
-  overflow:auto;
+  
  }
 .header{
   float:left;
@@ -24,6 +24,21 @@ h2{
   text-shadow: 2px 2px beige;
 }
 .header p{
-  font-size:30px;
-  
+  font-size:30px; 
+}
+
+nav{
+  overflow: hidden;
+}
+nav a{
+  display:block;
+  color:violet;
+  font-size:18px;
+  text-decoration: none;
+  margin:5px;
+  text-align: center
+}
+nav a:hover{
+  background-color: white;
+  color: blue;
 }
