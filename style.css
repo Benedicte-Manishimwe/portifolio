@@ -58,3 +58,10 @@ nav a:hover{
 h3{
   text-align: center;
 }
+section{
+  float:left;
+  flex-direction:column;
+  background-color: antiquewhite;
+  padding:5px;
+  margin:10px
+}
