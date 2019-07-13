@@ -1,8 +1,15 @@
 body{
-  background-image:url(blob:https://web.whatsapp.com/c7b8e86c-82e5-47f5-ae16-aa8a520a9232) ;
+  background-image:url("/home/wecode/Downloads/WhatsApp Image 2019-07-13 at 11.03.43.jpeg") ;
   background-attachment:fixed;
-  background-size: cover; 
+  background-size:cover;
   border:1px solid black;
   padding:15px;
   font-family: sans-serif;
+}
+h1{
+  font-size:30px;
+  color:white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style:italic;
+
 }
