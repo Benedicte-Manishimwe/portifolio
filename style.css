@@ -1,8 +1,29 @@
-*{
-  background-image: url(https://i.pinimg.com/236x/9b/41/0b/9b410bae43b081a974226b877afd04d3--the-sky-imagination.jpg);
+body{
+  background-image:url("/home/wecode/Downloads/WhatsApp Image 2019-07-13 at 11.03.43.jpeg") ;
+  background-attachment:fixed;
   background-size:cover;
-  border:1px solid black;
-  padding:5px;
-  margin:1opx;
-  font-family: sans-serif;
+  background-position: center;
+  display:flex;
+  overflow:auto;
+ }
+.header{
+  float:left;
+  background-color:silver;
+  width:40%;
+  border:1px solid; 
+  margin:20px;
+  height:auto;
+
+}
+h2{
+  font-size:50px;
+  color:white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style:italic;
+  text-align: center;
+  text-shadow: 2px 2px beige;
+}
+.header p{
+  font-size:30px;
+  
 }
