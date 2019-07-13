@@ -3,13 +3,24 @@ body{
   background-attachment:fixed;
   background-size:cover;
   border:1px solid black;
-  padding:15px;
   font-family: sans-serif;
 }
-h1{
+.header{
+  float:left;
+  background-color:silver;
+  width:20%;
+  border:1px solid; 
+  margin:0;
+  height:auto;
+
+}
+h2{
   font-size:30px;
   color:white;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style:italic;
+  text-align: center;
+  text-shadow: 2px 2px beige;
+
 
 }
