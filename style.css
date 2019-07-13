@@ -73,8 +73,11 @@ section{
   background-color:silver;
 }
 #skills{
-  text-align:center;
-  list-style-type: upper-latin ;
+  text-align: center;
+  padding:10px;
+}
+#skills>ul>li{
+  list-style-type:none;
 }
 
 
