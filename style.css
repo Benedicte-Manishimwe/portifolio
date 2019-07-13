@@ -1,21 +1,26 @@
-body{
+*{
+  box-sizing: border-box;
   background-image:url("/home/wecode/Downloads/WhatsApp Image 2019-07-13 at 11.03.43.jpeg") ;
   background-attachment:fixed;
   background-size:cover;
   background-position: center;
+}
+
+body{
   display:flex;
-  
+  font-size:20px;
  }
+
 .header{
   float:left;
   background-color:silver;
-  width:40%;
+  width:50%;
   border:1px solid; 
   margin:20px;
-  height:auto;
-
+  height:700px;
 }
-h2{
+
+ .header h2{
   font-size:50px;
   color:white;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -23,6 +28,7 @@ h2{
   text-align: center;
   text-shadow: 2px 2px beige;
 }
+
 .header p{
   font-size:30px; 
 }
@@ -30,6 +36,7 @@ h2{
 nav{
   overflow: hidden;
 }
+
 nav a{
   display:block;
   color:violet;
@@ -41,4 +48,13 @@ nav a{
 nav a:hover{
   background-color: white;
   color: blue;
+}
+#about{
+  background-color: cyan;
+  width:100%;
+  text-justify:justify;
+  float: left;
+}
+h3{
+  text-align: center;
 }
