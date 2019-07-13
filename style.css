@@ -65,7 +65,7 @@ h3{
 section{
   float:left;
   flex-direction:column;
-  padding:0px;
+  padding:10px;
   margin:10px auto 50px auto;
 
 }
@@ -116,3 +116,4 @@ section{
   text-align:center;
   margin:10px auto 10px auto;
 }
+
