@@ -4,14 +4,14 @@
 ## Description
 As a junior software developer,to set some application in advanced is very constructive.this application is used with html and css languages.
 ## Setup/Installation Requirements
-* git clone https://github.com/Benedicte-Manishimwe/portifolio.git
 *  git code .
 * git atom .[//](if is for Mac code user)
 * git add .
 * git add filename .
 * git commit -m"add changes made"
 * git push origin master
-
+## The URL of the live site:
+https://benedicte-manishimwe.github.io/portifolio/
 ## Known Bugs
 make different branchs ,one for html ,other for css in order to review the steps done. remember to merge theoneof css in master branch.
 ## Technologies Used
