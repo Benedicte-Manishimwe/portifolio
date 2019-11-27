@@ -1,13 +1,27 @@
-.header{
-  position: relative;
-  width: 100%;
-  max-width: 300px;
-  color: whitesmoke;
-}
 
-#about, #projects ,#skills ,#contacts{
+body{
   background-color: aliceblue;
+}
+nav{
+  padding:20px 20px;
+  margin-top: 50px;
+  width:100%;
+  overflow: hidden;
+  text-align: center;
 
+} 
+
+nav a{
+  color:black ;
+  font-size:18px;
+  text-decoration: none;
+  margin:0px;
+  padding:14px 16px ;
+  text-align: center
+}
+nav a:hover{
+  background-color: white;
+  color: grey;
 }
  .header h2{
   font-size:50px;
@@ -38,34 +52,10 @@ header p{
   font-weight: bold;
 }
 
-.nav{
-  float:left;
-  width:100%;
-  overflow: hidden;
-  text-align: center;
 
-} 
-
-nav a{
-  float:left;
-  color:white ;
-  font-size:18px;
-  text-decoration: none;
-  margin:0px;
-  padding:14px 16px ;
-  text-align: center
-
-}
-nav a:hover{
-  background-color: white;
-  color: grey;
-
-}
 h3{
   text-align: center
 }
-
-
 
 .me{
 text-align: center;
@@ -82,32 +72,27 @@ text-align: center;
   margin:5px;
   padding: 5px;
 }
-.project{
-  display: flex;
 
-}
-.proj1{
-  float:left;
-  width:33%;
-}
-.proj2{
-  float:left;
-  width:33%;
-}
-.proj3{
-  float:left;
-  width:33%;
-}
+
+
 #contacts{
   float:left;
   width:100%;
   overflow: hidden;
   text-align: center;
   background-color: gainsboro;
+}
+.footer{
+  bottom: 0;
+  size:20px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 16px;
 
 }
 
- #skillssection{
+ #skill{
   height: 300px;
   margin-top: 30px;
  }
